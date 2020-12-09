@@ -1,5 +1,5 @@
 {
-    "name": "mars/collection",
+    "name": "mars/routing",
     "description": "simple mars collection package",
     "type": "library",
     "license": "MIT",
@@ -15,7 +15,7 @@
     ],
     "autoload": {
         "psr-0": {
-            "Mars\\Collection\\": "src"
+            "Mars\\Routing\\": "src"
         }
     },
     "require": {}

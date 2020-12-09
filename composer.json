@@ -1,11 +1,21 @@
 {
     "name": "mars/core",
+    "description": "",
     "type": "library",
     "authors": [
         {
             "name": "Hassane Dao",
             "email": "dao.hassane@gmail.com"
+        },
+        {
+            "name": "Houssene Dao",
+            "email": "dao.houssene@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "Mars\\": "src/Mars"
+        }
+    }
 }
