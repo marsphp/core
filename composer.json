@@ -1,0 +1,11 @@
+{
+    "name": "mars/core",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Hassane Dao",
+            "email": "dao.hassane@gmail.com"
+        }
+    ],
+    "require": {}
+}
