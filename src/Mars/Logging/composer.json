@@ -1,22 +1,18 @@
 {
-    "name": "mars/collection",
-    "description": "simple mars collection package",
-    "type": "library",
+    "name": "mars/logging",
+    "description": "",
+    "type": "project",
     "license": "MIT",
     "authors": [
         {
             "name": "Hassane Dao",
             "email": "dao.hassane@gmail.com"
-        },
-        {
-            "name": "Houssene Dao",
-            "email": "dao.houssene@gmail.com"
         }
     ],
+    "require": {},
     "autoload": {
-        "psr-0": {
-            "Mars\\Collection\\": "src"
+        "psr-4": {
+            "Mars\\Core\\Logging\\": ""
         }
-    },
-    "require": {}
+    }
 }

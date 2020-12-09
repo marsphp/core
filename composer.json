@@ -14,8 +14,8 @@
     ],
     "require": {},
     "autoload": {
-        "psr-0": {
-            "Mars\\": "src/Mars"
+        "psr-4": {
+            "Mars\\Core\\": "src/Mars/"
         }
     }
 }
