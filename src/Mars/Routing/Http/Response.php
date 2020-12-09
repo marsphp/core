@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Mars\Core\Routing;
+namespace Mars\Core\Routing\Http;
 
-use Mars\Core\Routing\Interfaces\IResponse;
+use Mars\Core\Routing\Http\Http\Interfaces\IResponse;
 
 class Response implements IResponse
 {

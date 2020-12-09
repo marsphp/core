@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Mars\Core\Routing\Interfaces;
+namespace Mars\Core\Routing\Http\Http\Interfaces;
 
 
-use Mars\Core\Routing\Interfaces\Exceptions\MethodeNotAllowedException;
-use Mars\Core\Routing\Interfaces\Exceptions\RouteNotFoundException;
+use Mars\Core\Routing\Http\Http\Interfaces\Exceptions\MethodeNotAllowedException;
+use Mars\Core\Routing\Http\Http\Interfaces\Exceptions\RouteNotFoundException;
 
 interface IResponse
 {

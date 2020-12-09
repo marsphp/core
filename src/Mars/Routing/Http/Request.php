@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Mars\Core\Routing;
+namespace Mars\Core\Routing\Http\Http;
 
-use Mars\Core\Routing\Interfaces\IRequest;
+use Mars\Core\Routing\Http\Http\Interfaces\IRequest;
 
 class Request implements IRequest
 {

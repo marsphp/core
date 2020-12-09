@@ -1,6 +1,6 @@
 <?php
 
-namespace Mars\Core\Routing\Interfaces\Exceptions;
+namespace Mars\Core\Routing\Http\Http\Interfaces\Exceptions;
 
 /**
  * Class MethodeNotAllowedException
