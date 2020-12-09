@@ -1,0 +1,22 @@
+{
+    "name": "mars/collection",
+    "description": "simple mars collection package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hassane Dao",
+            "email": "dao.hassane@gmail.com"
+        },
+        {
+            "name": "Houssene Dao",
+            "email": "dao.houssene@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Mars\\Collection\\": "src"
+        }
+    },
+    "require": {}
+}
