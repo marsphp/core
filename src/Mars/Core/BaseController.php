@@ -8,14 +8,15 @@ namespace Mars\Core;
  *
  * @package Mars\Core
  */
-class Controller
+class BaseController
 {
     /**
      * @param $view
+     * @param array $params
      * @return false|string|string[]
      */
-    public function render($view)
+    public function render($view, $params = [])
     {
-        return Core::$core->router->renderView($view);
+        return Core::$core->router->renderView($view, $params);
     }
 }

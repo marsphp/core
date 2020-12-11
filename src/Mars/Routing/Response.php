@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Mars\Core\Routing;
+namespace Mars\Routing;
 
 /**
  * Class Response

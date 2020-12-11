@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Mars\Core\Routing;
+namespace Mars\Routing;
 
 use Mars\Core\Core;
 
@@ -89,10 +89,10 @@ class Router
      * @param string $view
      * @return false|string|string[]
      */
-    public function renderView(string $view)
+    public function renderView(string $view, $params = [])
     {
         $layoutContent = $this->layoutContent();
-        $viewContent = $this->renderOnlyView($view);
+        $viewContent = $this->renderOnlyView($view, $params);
 
         return str_replace('{{content}}', $viewContent, $layoutContent);
     }
@@ -120,10 +120,15 @@ class Router
 
     /**
      * @param $view
+     * @param $params
      * @return false|string
      */
-    protected function renderOnlyView($view)
+    protected function renderOnlyView($view, $params)
     {
+        foreach ($params as $key => $value) {
+            $$key = $value;
+        }
+
         ob_start();
         include_once Core::$ROOT_DIR. "/resources/views/$view.php";
         return ob_get_clean();

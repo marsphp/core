@@ -2,10 +2,10 @@
 
 namespace App\Controllers;
 
-use Mars\Core\Controller;
-use Mars\Core\Routing\Request;
+use Mars\Core\BaseController;
+use Mars\Routing\Request;
 
-class SiteController extends Controller
+class SiteController extends BaseController
 {
 
     /**
@@ -13,8 +13,8 @@ class SiteController extends Controller
      */
     public function home()
     {
-
-        return $this->render('home');
+        $data = ['name' => 'John Doe'];
+        return $this->render('home', $data);
     }
 
     /**
