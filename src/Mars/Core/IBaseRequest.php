@@ -1,15 +1,13 @@
 <?php
 
-
 namespace Mars\Core;
-
 
 interface IBaseRequest
 {
     /**
      * @return mixed
      */
-    public function getPath();
+    public function getPath(): mixed;
 
     /**
      * @return string

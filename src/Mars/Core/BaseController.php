@@ -15,7 +15,7 @@ class BaseController
      * @param array $params
      * @return false|string|string[]
      */
-    public function render($view, $params = [])
+    public function render($view, $params = []): array|bool|string
     {
         return Core::$core->router->renderView($view, $params);
     }
