@@ -9,6 +9,8 @@ class SiteController extends BaseController
 {
 
     /**
+     *
+     *
      * @return false|string|string[]
      */
     public function home()
@@ -18,6 +20,8 @@ class SiteController extends BaseController
     }
 
     /**
+     *
+     *
      * @return false|string|string[]
      */
     public function contact()
@@ -27,6 +31,8 @@ class SiteController extends BaseController
 
 
     /**
+     *
+     *
      * @param Request $request
      */
     public function saveData(Request $request)
