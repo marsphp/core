@@ -3,6 +3,8 @@
 
 namespace Mars\Core\Routing;
 
+use Mars\Core\Core;
+
 /**
  * Class Router
  *
@@ -83,6 +85,10 @@ class Router
         return call_user_func($callback, $this->request);
     }
 
+    /**
+     * @param string $view
+     * @return false|string|string[]
+     */
     public function renderView(string $view)
     {
         $layoutContent = $this->layoutContent();
@@ -91,6 +97,10 @@ class Router
         return str_replace('{{content}}', $viewContent, $layoutContent);
     }
 
+    /**
+     * @param string $viewContent
+     * @return false|string|string[]
+     */
     public function renderContent(string $viewContent)
     {
         $layoutContent = $this->layoutContent();
@@ -108,6 +118,10 @@ class Router
         return ob_get_clean();
     }
 
+    /**
+     * @param $view
+     * @return false|string
+     */
     protected function renderOnlyView($view)
     {
         ob_start();
