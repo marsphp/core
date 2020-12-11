@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Mars\Core;
+namespace Mars\src;
 
 
 class Request

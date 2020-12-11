@@ -2,8 +2,8 @@
 
 namespace App\Controllers;
 
-use Mars\Core\Controller;
-use Mars\Core\Request;
+use Mars\src\Controller;
+use Mars\src\Request;
 
 class SiteController extends Controller
 {
