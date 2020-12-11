@@ -1,6 +1,10 @@
 <?php
 
-namespace Mars\src;
+namespace Mars\Core;
+use Mars\Core\Routing\Request;
+use Mars\Core\Routing\Response;
+use Mars\Core\Routing\Router;
+
 /**
  * Class Core
  *

@@ -2,8 +2,8 @@
 
 namespace App\Controllers;
 
-use Mars\src\Controller;
-use Mars\src\Request;
+use Mars\Core\Controller;
+use Mars\Core\Routing\Request;
 
 class SiteController extends Controller
 {
@@ -13,6 +13,7 @@ class SiteController extends Controller
      */
     public function home()
     {
+
         return $this->render('home');
     }
 
@@ -23,6 +24,7 @@ class SiteController extends Controller
     {
         return $this->render('contact');
     }
+
 
     /**
      * @param Request $request

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Mars\src;
+namespace Mars\Core\Routing;
 
 /**
  * Class Router

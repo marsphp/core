@@ -1,7 +1,9 @@
 <?php
 
-use Mars\src\Core;
+
+use Mars\Core\Core;
 use App\Controllers\SiteController;
+
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
