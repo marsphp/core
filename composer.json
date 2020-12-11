@@ -15,7 +15,8 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Mars\\Core\\": "src/"
+            "App\\": "app",
+            "Mars\\Core\\": "Core/"
         }
     }
 }
